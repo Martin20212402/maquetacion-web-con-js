@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la web -->
+    <title>Martin Reynoso Web</title>
+    <!-- Este es la importacion de nuestro archivo css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- boxicons -->
+    <!-- https://boxicons.com/ -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remixicon -->
+    <!-- https://remixicon.com/ -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+    <!-- Esta seccion es la cabecera de la pagina web la cual tendra logo y comentario -->
+    <header>
+        <!-- LOGO -->
+        <a href="#" class="logo">MARTIN REYNOSO</a>
+
+                                                                                <!-- Truco para que el botón sea clickeable sin usar javascript -->
+                                                                                <!--lo sacamos para hacer la parte de js-->
+                                                                                <!-- <input type="checkbox" name="checkbox" id="menu-toggle">
+                                                                                <label for="menu-toggle" class="menu-icon-action"> -->
+        <div class='bx bx-menu' id="menu-icon"></div>
+                                                                                <!-- </label> -->
+        
+        
+
+        <!-- Barras de navegacion con lista desordenada y coloco 4 items -->
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>              
+            <li><a href="#">Sobre mí</a></li>         <!--About-->
+            <li><a href="#">Portfolio</a></li>        <!--Portfolio-->
+            <li><a href="#">Contacto</a></li>         <!--Contact-->
+        </ul> 
+        
+        </header>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-text">
+                <h5>Frontend Developer</h5>
+                <h4>ReactJS Tech Lead</h4>
+                <h1>Martín Reynoso</h1>
+                <p>Aprendé todas las tecnologías conmigo y podrás obtener tu<br>
+                   primer trabajo de desarrollador web finalizar este curso.
+                </p>
+                <a href="#">CV</a>
+                <a href="#"class="videos"><i class="ri-play-fill"></i>Mirá mis videos</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="/assets/imgs/m_reynoso.png" alt="martin reynoso foto">
+            </div>
+        </section> 
+
+        <div class="icons">
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+
+        </div>
+
+        <div class="scroll-down">
+            <a href="#"><i class="ri-arrow-drop-down-line"></i></a>
+
+
+        </div>
+
+        <!-- el script de scrollreveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!-- aca introducimos js -->
+       <script src="script.js"></script>
+
+    
+</body>
+</html>
